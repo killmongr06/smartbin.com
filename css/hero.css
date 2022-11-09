@@ -1,0 +1,72 @@
+.hero {
+    position: relative;
+}
+
+.hero .image {
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-58.jpg");
+    background-size: cover;
+    height: 100%;
+    filter: blur();
+
+  
+
+    width: 100%;
+
+    border: 0;
+    float: left;
+
+    margin-bottom: 200px;
+}
+
+.hero .content {
+    position: absolute;
+    margin: 0;
+    margin-top: 50vh;
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hero .content .headline {
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.hero .content .description {
+    margin-top: -15px;
+    color: white;
+    font-family: cursive;
+}
+
+.hero .content button {
+    padding: 8px;
+    border-radius: 4px;
+    width: 150px;
+
+    border: 1px solid white;
+    background-color: #9DA7B3;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.hero .content button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 400ms;
+}
+
+.hero .content button:not(:hover){
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: all 400ms;
+}
+
+.hero .content .highlighted {
+    font-weight: bold;
+    color: beige;
+    background-color: rgb(62, 245, 72) !important;
+}

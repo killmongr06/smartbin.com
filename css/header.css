@@ -1,0 +1,50 @@
+#header {
+    width: calc(100% - 10px);
+    height: 50px;
+
+    background-blend-mode: overlay;
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#header h1 a {
+    text-decoration: none;
+    color: rgb(77, 247, 86);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#header h1 {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+
+    margin: 0;
+    padding: 0;
+}
+
+#header_links {
+    float: right;
+    color: rgb(255, 255, 255);
+    display: table;
+    position: relative;
+
+    top: -25px;
+}
+
+#header_links a {
+    display: table-cell;
+    padding-right: 40px;
+}
+
+#header_links a:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 100ms;
+}
+
+#header_links a:not(:hover) {
+    color: rgb(253, 253, 253);
+    cursor: auto;
+    transition: all 100ms;
+}
